@@ -1484,7 +1484,7 @@
     {
       "name": "IPv4",
       "type": 0,
-      "url": "./lives/live.txt",
+      "url": "http://xn--7gqr10d.xyz/log.txt",
       "ua": "okhttp/3.12.13",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
