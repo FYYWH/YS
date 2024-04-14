@@ -256,11 +256,8 @@
       "key": "南瓜",
       "name": "🐉┃南瓜秒播┃",
       "type": 3,
-      "api": "csp_NanGua",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/nangua.js"
     },
              {
             "key": "天天",
