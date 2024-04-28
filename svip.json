@@ -115,11 +115,10 @@
       "key": "短剧",
       "name": "🐉┃短剧大全┃",
       "type": 3,
-      "api": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/drpy2.min.js",
-      "ext": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/上头短剧.js",
+      "api": "csp_Djuu",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 0
+      "changeable": 1
     },
         {
       "key": "酷看",
@@ -177,6 +176,20 @@
 		"分类": "电视剧$drama#电影$movie"
 	}
        }, 
+       {
+            "key": " 天空",
+            "name": "🐉┃天空影视┃",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": { 
+                    "分类url":"https://www.njshunma.com/index.php/vod/show/by/time/id/{cateId}/page/{catePg}.html",
+"分类":"电影&电视剧&动漫&综艺&动画片&邵氏电影&短剧","分类值":"1&2&4&3&37&38&41",
+                "公众号卫华正能量大爱学堂出品": ""
+            }
+        },
                     {
       "key": "meowtv_wfys",
       "name": "🐉┃网飞影视┃",
