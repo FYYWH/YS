@@ -112,6 +112,19 @@
         },
 {"key": "csp_KungFu404","name":"🐉┃阿里设置┃","type": 3,"api": "csp_KungFu404", "searchable":0,"filterable": 0, "changeable":0,"jar":"./lib/alibaba.jar","ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|fhd|auto"},
     {
+      "key": "Aid",
+      "name": "🐉┃急救教学┃",
+      "type": 3,
+      "api": "csp_FirstAid",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 3.8
+      }
+    },
+    {
       "key": "短剧",
       "name": "🐉┃短剧大全┃",
       "type": 3,
@@ -366,15 +379,18 @@
       "ext": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/网飞.TV.js"
     },
     {
-      "key": "T4-yinyuetai",
+      "key": "MTV",
       "name": "🐉┃音悦台MV┃",
-      "type": 4,
-      "api": "https://catbox.n13.club/yyt.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "type": 3,
+      "api": "csp_Bili",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
       "changeable": 0,
-      "ext": true
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/MTV.json"
     },
 {
 "key": "dr_码上看18哈",
@@ -1094,8 +1110,8 @@
 "ext": "./lib/中国人.js"
 },
     {
-      "key": "L88js",
-      "name": "🐉┃LIVE看球┃",
+      "key": "88js",
+      "name": "🐉┃88js看球┃",
       "type": 3,
       "api": "csp_Kanqiu",
       "style": {
@@ -1120,11 +1136,11 @@
       "jar": "http://like.xn--z7x900a.live:66/jar/fatcat.jar;md5;759ab954144e25402ba2cc5ee6c6c16a"
     },
     {
-      "key": "csp_qiumi",
+      "key": "Jrsjs",
       "name": "🐉┃Jrs 球迷┃",
       "type": 3,
-      "api": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/drpy2.min.js",
-      "ext": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/jrk.js",
+      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/jrk.js",
       "style": {
         "type": "list"
       },
@@ -1133,11 +1149,11 @@
       "changeable": 0
     },
     {
-      "key": "csp_310直播",
+      "key": "310js",
       "name": "🐉┃310 看球┃",
       "type": 3,
-      "api": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/drpy2.min.js",
-      "ext": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/310直播.js",
+      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/310直播.js",
       "style": {
         "type": "list"
       },
@@ -1146,7 +1162,7 @@
       "changeable": 0
     },
     {
-      "key": "csp_XPath_企鹅体育",
+      "key": "企鹅体育xp",
       "name": "🐉┃企鹅体育┃",
       "type": 3,
       "api": "csp_XPath",
@@ -1156,7 +1172,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/企鹅直播.json"
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/企鹅直播.json"
     },
     {
       "key": "相声",
