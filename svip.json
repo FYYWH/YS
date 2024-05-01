@@ -1795,6 +1795,16 @@
       ]
     }
   ],
+    "lives": [
+    {
+      "name": "IPv4",
+      "type": 0,
+      "url": "https://gitlab.com/tvtg/vip/-/raw/main/log.txt",
+      "ua": "okhttp/3.12.13",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    }
+  ],
   "ads": [
     "mimg.0c1q0l.cn",
     "www.googletagmanager.com",
