@@ -1,6 +1,6 @@
 {
-    "spider": "./spider.jar",
-    "wallpaper": "https://深色壁纸.xxooo.cf/",
+  "spider": "./lib/ttkx.jar",
+  "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
   "sites": [
         {
             "name": "live",
