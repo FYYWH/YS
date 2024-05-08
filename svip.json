@@ -164,6 +164,59 @@
       "changeable": 1,
       "ext": "https://www.baipiaoys.com:9092/"
     },
+            {
+      "key": "csp_JianPian",
+      "name": "🐉┃荐片影视┃",
+      "type": 3,
+      "api": "csp_JianPian",
+      "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://oiuzy.haitu33.com"
+    },
+        {
+      "key": "drpy_js_360影视",
+      "name": "🐉┃360 官源┃",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/360影视.js"
+    },
+        {
+      "key": "drpy_js_菜狗",
+      "name": "🐉┃搜狗官源┃",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/菜狗.js"
+    },
+        {
+      "key": "drpy_js_腾云驾雾",
+      "name": "🐉┃腾讯官源┃",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/腾云驾雾.js"
+    },
+    {
+      "key": "drpy_js_奇珍异兽",
+      "name": "🐉┃奇艺官源┃",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/奇珍异兽.js"
+    },
+    {
+      "key": "drpy_js_优酷",
+      "name": "🐉┃优酷官源┃",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/优酷.js"
+    },
+    {
+      "key": "drpy_js_百忙无果",
+      "name": "🐉┃芒果官源┃",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/百忙无果.js"
+    },
                     {
       "key": "神仙影视",
       "name": "🐉┃神仙影视┃",
@@ -294,17 +347,6 @@
       "quickSearch": 1,
       "changeable": 0
     },
-                    {
-      "key": "贱贱",
-      "name": "🐉┃荐片影视┃",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "playerType": "1",
-      "api": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/drpy2.min.js",
-      "ext": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/jp.js"
-    },
     {
       "key": "南瓜",
       "name": "🐉┃南瓜秒播┃",
@@ -321,48 +363,6 @@
             "playerType": 2,
             "ext": "http://op.ysdqjs.cn"
         },
-    {
-      "key": "drpy_js_菜狗",
-      "name": "🐉┃搜狗官源┃",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/菜狗.js"
-    },
-        {
-      "key": "drpy_js_腾云驾雾",
-      "name": "🐉┃腾讯官源┃",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/腾云驾雾.js"
-    },
-    {
-      "key": "drpy_js_360影视",
-      "name": "🐉┃360 官源┃",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/360影视.js"
-    },
-    {
-      "key": "drpy_js_奇珍异兽",
-      "name": "🐉┃奇艺官源┃",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/奇珍异兽.js"
-    },
-    {
-      "key": "drpy_js_优酷",
-      "name": "🐉┃优酷官源┃",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/优酷.js"
-    },
-    {
-      "key": "drpy_js_百忙无果",
-      "name": "🐉┃芒果官源┃",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/百忙无果.js"
-    },
             {
       "key": "drpy_js_网飞.TV",
       "name": "🐉┃网飞影视┃",
@@ -1397,8 +1397,23 @@
       "type": 3,
       "url": "Web"
     },
-    {
+        {
       "name": "公众号：天微科技",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+        }
+      }
+    },
+        {
+      "name": "-天微科技0-",
+      "type": 1,
+      "url": "http://119.91.123.253:2345/Api/yun.php?url="
+    },
+    {
+      "name": "-天微科技1-",
       "type": 1,
       "url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=demprsyzBMQRVY0234&url=",
       "ext": {
@@ -1433,23 +1448,13 @@
       }
     },
     {
-      "name": "-天微科技1-",
+      "name": "-天微科技2-",
       "type": 0,
       "url": "https://jx.xyflv.cc/?url=",
       "ext": {
         "header": {
           "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36",
           "referer": "https://www.xyflv.cc/"
-        }
-      }
-    },
-    {
-      "name": "-天微科技2-",
-      "type": 0,
-      "url": "https://jx.xmflv.com/?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
         }
       }
     },
@@ -1551,7 +1556,7 @@
     "renrenmi"
   ],
   "rules": [
-    {
+   {
       "name": "♻️非凡",
       "hosts": [
         "ffzy"
@@ -1893,16 +1898,6 @@
           "value": "600000000"
         }
       ]
-    }
-  ],
-    "lives": [
-    {
-      "name": "IPv4",
-      "type": 0,
-      "url": "https://gitlab.com/tvtg/vip/-/raw/main/log.txt",
-      "ua": "okhttp/3.12.13",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
   ],
   "ads": [
