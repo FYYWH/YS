@@ -1374,8 +1374,8 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "http://127.0.0.1:9978/file/tvboxqq/token.txt"
-    }  ],
-  "parses": [
+    }  
+    ],
   "parses": [
         {"name":"关注","type":3,"url":"Demo"},
         {"name":"公众号","type":2,"url":"Sequence"},
