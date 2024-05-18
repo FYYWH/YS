@@ -1,6 +1,7 @@
 {
   "spider": "./lib/ttkx.jar",
   "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
+  "logo": "https://qixing.myhkw.com/long.jpg",
   "sites": [
         {
             "name": "live",
