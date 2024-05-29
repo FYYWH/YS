@@ -111,7 +111,7 @@
                 ]
             }
         },
-{"key": "csp_KungFu404","name":"🐉┃阿里设置┃","type": 3,"api": "csp_KungFu404", "searchable":0,"filterable": 0, "changeable":0,"jar":"./lib/alibaba.jar","ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|fhd|auto"},
+{"key": "csp_KungFu404","name":"🐉┃阿里设置┃","type": 3, "api": "csp_KungFu404", "searchable":1,"filterable": 0, "changeable":0,"jar":"./lib/alibaba.jar","ext":"http://127.0.0.1:9978/tvbox/tok.txt+4k|fhd|auto"},
     {
       "key": "Aid",
       "name": "🐉┃急救教学┃",
