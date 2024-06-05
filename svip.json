@@ -136,8 +136,6 @@
     },
         {
       "key": "酷看",
-      "name": "🐉┃1080快看┃",
-"type":3,"api":"csp_Kkys","timeout":15,"ua": "okhttp/3.15","searchable":1,"quickSearch":1,"playerType":1,"changeable":1},
 {"key":"4K影视","name":"🐉┃蓝光影视┃","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"ua": "okhttp/3.15","filterable":1,"ext":"./lib/4K影视.json"},
         {
       "key": "原创",
@@ -198,6 +196,8 @@
       "key": "神仙影视",
       "name": "🐉┃神仙影视┃",
 "type":3,"api":"csp_XBPQ","ua": "okhttp/3.15","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/神仙影视.json"},
+      "name": "🐉┃1080快看┃",
+"type":3,"api":"csp_Kkys","timeout":15,"ua": "okhttp/3.15","searchable":1,"quickSearch":1,"playerType":1,"changeable":1},
         {
 	"key": "华人影院",
 	"name": "🐉┃华人影视┃",
