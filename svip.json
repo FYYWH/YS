@@ -1,8 +1,8 @@
 {
-  "spider": "./lib/ttkx.jar",
-  "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
-  "logo": "https://qixing.myhkw.com/long.jpg",
-  "sites": [
+	"spider": "./lib/tw.jar",
+	"wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
+    "logo": "https://qixing.myhkw.com/tw.jpg",
+ "lives": [
         {
             "name": "live",
             "type": 0,
@@ -137,34 +137,17 @@
         {
       "key": "酷看",
       "name": "🐉┃1080快看┃",
-      "type": 3,
-      "api": "csp_Kkys",
-      "timeout": 15,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
+"type":3,"api":"csp_Kkys","timeout":15,"ua": "okhttp/3.15","searchable":1,"quickSearch":1,"playerType":1,"changeable":1},
         {
       "key": "原创",
       "name": "🐉┃原创影视┃",
-      "type": 3,
-      "api": "csp_YCyz",
-      "timeout": 15,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
+"type":3,"api":"csp_YCyz","timeout":15,"ua": "okhttp/3.15","searchable":1,"quickSearch":1,"playerType":1,"changeable":1},
             {
       "key": "csp_JianPian",
       "name": "🐉┃荐片影视┃",
       "type": 3,
-      "api": "csp_JianPian",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://oiuzy.haitu33.com"
-    },
+"type":3,"ua": "okhttp/3.15","api":"./lib/drpy2.min.js","ext":"./lib/jianpian.js"},
+    {"key":"剧圈圈","name":"🐉┃剧圈影视┃","type":3,"api":"csp_XBPQ","searchable":1,"ua": "okhttp/3.15","quickSearch":1,"filterable":1,"ext":"./lib/剧圈圈.json"},
         {
       "key": "drpy_js_360影视",
       "name": "🐉┃360 官源┃",
