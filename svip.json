@@ -137,6 +137,7 @@
         {
       "key": "酷看",
 {"key":"4K影视","name":"🐉┃蓝光影视┃","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"ua": "okhttp/3.15","filterable":1,"ext":"./lib/4K影视.json"},
+    {"key":"西屋影视","name":"🐉┃西屋影视┃","type":3,"api":"csp_XBPQ","ua": "okhttp/3.15","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/西屋影视.json"},
         {
       "key": "原创",
       "name": "🐉┃原创影视┃",
@@ -189,7 +190,6 @@
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/百忙无果.js"
     },
-    {"key":"西屋影视","name":"🐉┃西屋影视┃","type":3,"api":"csp_XBPQ","ua": "okhttp/3.15","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/西屋影视.json"},
     {"key":"苹果","name":"🐉┃苹果无广┃","type":3,"api":"csp_LiteApple","playerType":1,"searchable":1,"ua": "okhttp/3.15","quickSearch":1,"changeable":1},
     {"key": "红狐狸影院","name": "🐉┃红狐影院┃","type": 3,"ua": "okhttp/3.15","api": "csp_XBPQ","ext": {"简介":"+line-height: 20px;\">&&</div>","分类url": "https://honghuli.com/leibiao/{cateId}-{area}--{class}-----{catePg}---{year}.html","分类": "短剧$35#电影$1#连续剧$2#动漫$4#综艺$3"}},
                     {
