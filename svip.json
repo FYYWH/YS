@@ -1359,6 +1359,11 @@
         //{"name":"Json并发","type":2,"url":"Parallel"},
         //{"name":"Json轮询","type":2,"url":"Sequence"},
         //{"name":"解析聚合","type":3,"url":"Demo"},
+      {
+                "name": "天微科技",
+                      "type": 1,
+                            "url": "http://43.136.176.188:91/api/?key=f99226916774bfa29c9af99b2c736fd9&url="
+      },
     {
       "name": "开心",
       "type": 1,
