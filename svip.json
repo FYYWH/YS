@@ -140,12 +140,13 @@
       "key": "原创",
       "name": "🐉┃原创影视┃",
 "type":3,"api":"csp_YCyz","timeout":15,"ua": "okhttp/3.15","searchable":1,"quickSearch":1,"playerType":1,"changeable":1},
-            {
+
+    {"key":"剧圈圈","name":"🐉┃剧圈影视┃","type":3,"api":"csp_XBPQ","searchable":1,"ua": "okhttp/3.15","quickSearch":1,"filterable":1,"ext":"./lib/剧圈圈.json"},
+                {
       "key": "csp_JianPian",
       "name": "🐉┃荐片影视┃",
       "type": 3,
 "type":3,"ua": "okhttp/3.15","api":"./lib/drpy2.min.js","ext":"./lib/jianpian.js"},
-    {"key":"剧圈圈","name":"🐉┃剧圈影视┃","type":3,"api":"csp_XBPQ","searchable":1,"ua": "okhttp/3.15","quickSearch":1,"filterable":1,"ext":"./lib/剧圈圈.json"},
         {
       "key": "drpy_js_360影视",
       "name": "🐉┃360 官源┃",
@@ -1360,10 +1361,16 @@
         //{"name":"Json轮询","type":2,"url":"Sequence"},
         //{"name":"解析聚合","type":3,"url":"Demo"},
       {
-                "name": "天微科技",
-                      "type": 1,
-                            "url": "http://43.136.176.188:91/api/?key=f99226916774bfa29c9af99b2c736fd9&url="
-      },
+      "name": "天微科技",
+      "type": 1,
+      "url": "https://svip.cygc.xyz/api/?key=cygctest&url="
+    } , 
+
+      {
+                "name": "天微科技1",
+            "type": 0,
+            "url": "https://www.pangujiexi.com/pangu/?url="
+        },
     {
       "name": "开心",
       "type": 1,
