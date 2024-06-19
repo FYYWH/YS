@@ -12,7 +12,7 @@
     ],
   "sites": [
     {
-      "key": "豆瓣",
+      "key": "豆瓣热播",
       "name": "飞鹰热播",
       "type": 3,
       "api": "./api/drpy1.min.js",
