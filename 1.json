@@ -53,9 +53,8 @@
       "quickSearch": 0,
       "changeable": 0,
       "style": {
-        "type": "rect",
-        "ratio": 3.8
-      }
+      "type": "rect",
+      "ratio": 3.8 }
     },
     {
       "key": "短剧",
@@ -103,34 +102,38 @@
     {
       "key":"剧圈圈",
       "name":"剧圈影视",
-"type":3,
-"api":"csp_XBPQ",
-"searchable":1,
-"ua": "okhttp/3.15",
-"quickSearch":1,
-"filterable":1,
-"ext":"./lib/剧圈圈.json"
-},
-                {
+      "type":3,
+      "api":"csp_XBPQ",
+      "searchable":1,
+      "ua": "okhttp/3.15",
+      "quickSearch":1,
+      "filterable":1,
+      "ext":"./lib/剧圈圈.json"
+    },
+    {
       "key": "csp_JianPian",
       "name": "荐片影视",
       "type": 3,
-"type":3,"ua": "okhttp/3.15","api":"./lib/drpy2.min.js","ext":"./lib/jianpian.js"},
-        {
+      "type":3,
+      "ua": "okhttp/3.15",
+      "api":"./lib/drpy2.min.js",
+      "ext":"./lib/jianpian.js"
+    },
+    {
       "key": "drpy_js_360影视",
       "name": "360 官源",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/360影视.js"
     },
-        {
+    {
       "key": "drpy_js_菜狗",
       "name": "搜狗官源",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/菜狗.js"
     },
-        {
+    {
       "key": "drpy_js_腾云驾雾",
       "name": "腾讯官源",
       "type": 3,
@@ -158,28 +161,61 @@
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/百忙无果.js"
     },
-    {"key":"苹果","name":"苹果无广","type":3,"api":"csp_LiteApple","playerType":1,"searchable":1,"ua": "okhttp/3.15","quickSearch":1,"changeable":1},
-    {"key": "红狐狸影院","name": "红狐影院","type": 3,"ua": "okhttp/3.15","api": "csp_XBPQ","ext": {"简介":"+line-height: 20px;\">&&</div>","分类url": "https://honghuli.com/leibiao/{cateId}-{area}--{class}-----{catePg}---{year}.html","分类": "短剧$35#电影$1#连续剧$2#动漫$4#综艺$3"}},
-                    {
+    {
+      "key":"苹果",
+      "name":"苹果无广",
+      "type":3,
+      "api":"csp_LiteApple",
+      "playerType":1,
+      "searchable":1,
+      "ua": "okhttp/3.15",
+      "quickSearch":1,
+      "changeable":1
+    },
+    {
+      "key": "红狐狸影院",
+      "name": "红狐影院",
+      "type": 3,
+      "ua": "okhttp/3.15",
+      "api": "csp_XBPQ",
+      "ext": {"简介":"+line-height: 20px;\">&&</div>",
+      "分类url": "https://honghuli.com/leibiao/{cateId}-{area}--{class}-----{catePg}---{year}.html",
+      "分类": "短剧$35#电影$1#连续剧$2#动漫$4#综艺$3"}
+    },
+    {
       "key": "神仙影视",
       "name": "神仙影视",
-"type":3,"api":"csp_XBPQ","ua": "okhttp/3.15","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/神仙影视.json"},
-        {
+      "type":3,
+      "api":"csp_XBPQ",
+      "ua": "okhttp/3.15",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1,
+      "ext":"./lib/神仙影视.json"
+    },
+    {
       "key": "酷看",
       "name": "1080快看",
-"type":3,"api":"csp_Kkys","timeout":15,"ua": "okhttp/3.15","searchable":1,"quickSearch":1,"playerType":1,"changeable":1},
-        {
-	"key": "华人影院",
-	"name": "华人影视",
-	"type": 3,
-	"api": "csp_XBPQ",
-	  "jar": "./js/xyqxbpq.jar",
-	"ext": {
-		"分类url": "https://www.hdvod.cc/vod/filter/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
-		"分类": "电视剧$drama#电影$movie"
-	}
-       }, 
-               {
+      "type":3,
+      "api":"csp_Kkys",
+      "timeout":15,
+      "ua": "okhttp/3.15",
+      "searchable":1,
+      "quickSearch":1,
+      "playerType":1,
+      "changeable":1
+    },
+    {
+      "key": "华人影院",
+      "name": "华人影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./js/xyqxbpq.jar",
+      "ext": {
+      "分类url": "https://www.hdvod.cc/vod/filter/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+      "分类": "电视剧$drama#电影$movie" }
+    }, 
+    {
       "key": "玩偶",
       "name": "玩偶4k源",
       "type": 3,
@@ -189,14 +225,13 @@
       "changeable": 0,
       "jar":"./lib/fty.jar",
       "ext": {
-        "aliToken": "tvfan/token.txt",
-        "quarkCookie": "tvfan/cookie.txt",
-        "from": "4k|auto|fhd",
-        "siteUrl": "https://www.wogg.link/",
-        "danMu": "弹"
-      }
+      "aliToken": "tvfan/token.txt",
+      "quarkCookie": "tvfan/cookie.txt",
+      "from": "4k|auto|fhd",
+      "siteUrl": "https://www.wogg.link/",
+      "danMu": "弹" }
     },
-                    {
+    {
       "key": "meowtv_wfys",
       "name": "网飞影视",
       "type": 3,
@@ -206,8 +241,7 @@
       "filterable": 1,
       "ext": "http://cdn.teyonds.com/js/网飞影视.js"
     },
-    
-        {
+    {
       "key": "meowtv_ynys",
       "name": "鸭奈影视",
       "type": 3,
@@ -217,8 +251,7 @@
       "filterable": 1,
       "ext": "http://cdn.teyonds.com/xp/鸭奈影视.json",
       "jar": "http://meowtv.cn/meow4;md5;369DE8C4321A5C0ED6E7497F93863319"
-    },
-    
+    },  
     {
       "key": "meowtv_Nfys",
       "name": "奈飞影视",
@@ -230,7 +263,7 @@
       "ext": "http://cdn.teyonds.com/xp/奈飞影视.json",
       "jar": "http://meowtv.cn/meow4;md5;369DE8C4321A5C0ED6E7497F93863319"
     },
-            {
+    {
       "key": "兄弟",
       "name": "兄弟影视",
       "type": 3,
@@ -239,7 +272,7 @@
       "quickSearch": 1,
       "filterable": 1
     },
-             {
+    {
       "key": "csp_Nmys",
       "name": "农民影視",
       "type": 3,
@@ -260,23 +293,25 @@
       "changeable": 1,
       "ext": "https://www.czzy55.com/"
     },   
-                                    {
+    {
       "key": "影探",
       "name": "影探影院",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/yt.js"
     },
-    {"key": "dr_码上看369",
-"name": "369秒播", 
-"type": 3,
-"api": "./lib/merge.min.js",
-"searchable": 1, "playerType": 2,
-"quickSearch": 1,
-"filterable": 1,
-"ext": "./lib/369影视.js"
+    {
+      "key": "dr_码上看369",
+      "name": "369秒播", 
+      "type": 3,
+      "api": "./lib/merge.min.js",
+      "searchable": 1,
+      "playerType": 2,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/369影视.js"
     },
-        {
+    {
       "key": "sansan",
       "name": "三三解析",
       "type": 3,
@@ -292,16 +327,16 @@
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/nangua.js"
     },
-             {
-            "key": "天天",
-            "name": "天天秒播",
-            "type": 3,
-            "api": "csp_TTian",
-            "jar": "http://tc.feixunline.cn/down.php/2e85feb2888d9efb5b396258f22841ac.jar",
-            "playerType": 2,
-            "ext": "http://op.ysdqjs.cn"
-        },
-            {
+    {
+      "key": "天天",
+      "name": "天天秒播",
+      "type": 3,
+      "api": "csp_TTian",
+      "jar": "http://tc.feixunline.cn/down.php/2e85feb2888d9efb5b396258f22841ac.jar",
+      "playerType": 2,
+      "ext": "http://op.ysdqjs.cn"
+    },
+    {
       "key": "drpy_js_网飞.TV",
       "name": "网飞影视",
       "type": 3,
@@ -314,26 +349,25 @@
       "type": 3,
       "api": "csp_Bili",
       "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
+      "type": "rect",
+      "ratio": 1.597 },
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
       "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/MTV.json"
     },
-{
-"key": "dr_码上看18哈",
-"name": "要发影院", 
-"type": 3,
-"api": "./lib/merge.min.js",
-"searchable": 1,
-"playerType": 2,
-"quickSearch": 1,
-"filterable": 1,
-"ext": "./lib/18哈.js"
-},
-         {
+    {
+      "key": "dr_码上看18哈",
+      "name": "要发影院", 
+      "type": 3,
+      "api": "./lib/merge.min.js",
+      "searchable": 1,
+      "playerType": 2,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/18哈.js"
+    },
+    {
       "key": "csp_XYQHiker_奇趣影院",
       "name": "奇趣影院",
       "type": 3,
@@ -344,9 +378,9 @@
       "ext": "https://d.kstore.space/download/4708/js/奇趣影视.json",
       "jar": "https://d.kstore.space/download/4708/lib/xyq723.jar"
     },
-{
-"key": "dr_码上看尘落",
-"name": "落尘秒播",
+    {
+      "key": "dr_码上看尘落",
+      "name": "落尘秒播",
 "type": 3,
 "api": "./lib/merge.min.js",
 "searchable": 1, "playerType": 2, 
