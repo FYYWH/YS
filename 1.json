@@ -12,7 +12,7 @@
   "sites": [
     {
       "key": "豆豆",
-      "name": "飞鹰影视温馨提示:点击首页切换数据源",
+      "name": "飞鹰影视温馨提示:点击首页可切换数据源",
       "type": 3,
       "api": "./api/drpy2.min.js",
       "searchable": 0,
